@@ -3,7 +3,7 @@ package Domain;
 /**
  * Класс учителей
  */
-public class Teacher extends Person {
+public class Teacher extends WorkingPerson {
     private String acadDegree;
 
     public Teacher(String firstName, int age, String acadDegree) {

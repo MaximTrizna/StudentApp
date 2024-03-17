@@ -1,6 +1,6 @@
 package Domain;
 
-public class Employee extends Person{
+public class Employee extends WorkingPerson{
     private String special;
 
     public Employee(String firstName, int age, String special) {
